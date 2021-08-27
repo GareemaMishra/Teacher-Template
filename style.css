@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(119, 20, 185, 0.329);
+}
+
+.btn1 {
+  background-color: rgb(196, 193, 27);
+  font-weight: bold;
+}
+
+.btn2 {
+  background-color: rgb(70, 170, 24);
+  font-weight: bold;
+}
+
+.container {
+  background-color: darkblue;
+}
