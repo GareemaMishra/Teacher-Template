@@ -18,19 +18,6 @@
    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <script>
-        async function getdata(){
-            let response = await fetch("https://api.nasa.gov/planetary/apod?api_key=qUJjgfxzf3y4Nvg7rv6MMps47pvlWFpd8nlHcRK8")
-            let data =  await response.json()
-            return data
-        }
-        getdata().then(data =>{
-            console.log(data)
-            let date = data.date;
-            let image = data.hdurl;
-            let explanation = data.explanation
-            
-        })
-    </script>
+   
   </body>
 </html>
